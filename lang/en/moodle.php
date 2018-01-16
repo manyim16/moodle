@@ -580,6 +580,7 @@ $string['email'] = 'Email address';
 $string['emailalreadysent'] = 'A password reset email has already been sent. Please check your email.';
 $string['emailactive'] = 'Email activated';
 $string['emailagain'] = 'Email (again)';
+$string['emailempty'] = 'There is no existing email for user';
 $string['emailconfirm'] = 'Confirm your account';
 $string['emailconfirmation'] = 'Hi {$a->firstname},
 
