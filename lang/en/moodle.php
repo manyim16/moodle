@@ -573,6 +573,7 @@ $string['edulevel_help'] = '* Teaching - actions performed by a teacher, e.g. up
 * Participating - actions performed by a student, e.g. posting in a forum
 * Other - actions performed by a user with a role other than teacher or student';
 $string['email'] = 'Email address';
+$string['emailempty'] = 'There is no existing email for user';
 $string['emailalreadysent'] = 'A password reset email has already been sent. Please check your email.';
 $string['emailactive'] = 'Email activated';
 $string['emailagain'] = 'Email (again)';
@@ -708,6 +709,7 @@ $string['emailtoprivatefiles'] = 'You can also e-mail files as attachments strai
 $string['emailtoprivatefilesdenied'] = 'Your administrator has disabled the option to upload your own private files.';
 $string['emailvia'] = '{$a->name} (via {$a->siteshortname})';
 $string['emptydragdropregion'] = 'empty region';
+$string['emailempty'] = 'There is no existing email for user';
 $string['enable'] = 'Enable';
 $string['encryptedcode'] = 'Encrypted code';
 $string['enddate'] = 'Course end date';
