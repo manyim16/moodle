@@ -47,6 +47,9 @@ class simplehtml_form extends moodleform {
         $mform->addElement('text', 'description', get_string('picturedesc', 'block_simplehtml'), $attributes);
         $mform->setType('description', PARAM_TEXT);
 
+        $mform->addElement('hidden', 'blockid');
+        $mform->addElement('hidden', 'courseid');
+
         $this->add_action_buttons();
       }
         // $mform->addElement('header', 'optional', get_string('optional', 'form'), null, false)
