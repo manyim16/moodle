@@ -46,20 +46,10 @@ class simplehtml_form extends moodleform {
         $attributes = array('size' => '50', 'maxlength' => '100');
         $mform->addElement('text', 'description', get_string('picturedesc', 'block_simplehtml'), $attributes);
         $mform->setType('description', PARAM_TEXT);
-      
 
-
-
-        // function block_simplehtml_images() {
-        // return array(html_writer::tag('img', '', array('alt' => get_string('red', 'block_simplehtml'), 'src' => "pix/picture0.gif")),
-        //             html_writer::tag('img', '', array('alt' => get_string('blue', 'block_simplehtml'), 'src' => "pix/picture1.gif")),
-        //             html_writer::tag('img', '', array('alt' => get_string('green', 'block_simplehtml'), 'src' => "pix/picture2.gif")));
-        //
-        // require_once($CFG->dirroot.'/blocks/simplehtml/lib.php');
-        // $this->add_action_buttons();
-        //
-        // $mform->addElement('hidden', 'blockid');
-        // $mform->addElement('hidden', 'courseid');
-        }
-
-    }
+        $this->add_action_buttons();
+      }
+        // $mform->addElement('header', 'optional', get_string('optional', 'form'), null, false)
+        // $mform->addElement('date_time_selector', 'displaydate', get_string('displaydate', 'block_simplehtml'), array('optional' => true));
+        // $mform->setAdvanced('optional');
+      }
